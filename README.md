@@ -2,41 +2,23 @@
 =================================================
 
 ## Project Name
+Lab 37: Login + Auth & Context
 
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Context](https://codesandbox.io/s/w7k0noy775)
+* [Login&Auth](https://codesandbox.io/s/kw2158098o)
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+### Modules Context
+- Index.js -> App
+- Changer.js -> Changer
+- GenContext.js -> GenContext, GenProvider (method: changeTitleTo)
+- Page.js -> Page
 
-###### `bar(array) -> array`
-Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Context](./assets/UML-37Context.jpg)
+![Login+Auth](./assets/UML-37Login.jpg)
